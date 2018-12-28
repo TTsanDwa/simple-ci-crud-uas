@@ -26,13 +26,13 @@ class Members extends CI_Model{
     }
 
     public function add($post){
-/*		if($this->db->insert('members', $post)){
+	if($this->db->insert('members', $post)){
         	$msg = "Input data berhasil";
         	return array('msg'=>$msg, 'sts'=>true);
         }else{
         	$msg = $this->db->error();
         	return array('msg'=>$msg, 'sts'=>false);
-        }	*/
+        }
 
         $file = $_FILES;
         $filename = $_FILES['foto']['name'];
