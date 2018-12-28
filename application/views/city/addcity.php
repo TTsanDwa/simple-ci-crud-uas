@@ -29,6 +29,10 @@
   <label for="city">Nama City:</label>
   <input type="text" class="form-control" name="cityname">
 </div>
+<div class="form-group">
+  <label for="country">Country:</label>
+  <input type="text" class="form-control" name="country">
+</div>
 <a href="<?php echo site_url()?>" class="btn btn-warning">Kembali</a>
 <button id="save" class="btn btn-info">Tambah</button>
 </form>
